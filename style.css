@@ -1,0 +1,139 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: linear-gradient(to bottom, #b3ecff, #66ccff, #3399ff);
+  background-image: url('123.jpg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 20px;
+  padding: 30px 40px;
+  max-width: 800px;
+  width: 100%;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  color: #0077cc;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+label {
+  font-weight: bold;
+  color: #005580;
+  display: block;
+  margin-top: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 2px solid #cceeff;
+  border-radius: 8px;
+  outline-color: #3399ff;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 16px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(to right, #00bfff, #1e90ff);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  font-size: 16px;
+}
+
+button:hover {
+  background: linear-gradient(to right, #1e90ff, #00bfff);
+  transform: scale(1.05);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 25px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+th {
+  background-color: #3399ff;
+  color: white;
+}
+
+td {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.total {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 20px;
+  color: #0077cc;
+}
+
+.notification {
+  margin-top: 15px;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 8px;
+  width: fit-content;
+  display: none;  /* awalnya sembunyi */
+}
+
+.notification.success {
+  color: green;
+  background-color: #e0f8ff;
+}
+
+.notification.error {
+  color: red;
+  background-color: #ffd6d6;
+}
+button {
+  padding: 10px 16px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(to right, #00bfff, #1e90ff);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  font-size: 16px;
+  transition: transform 0.2s ease, box-shadow 0.3s ease, background 0.3s ease;
+  user-select: none;
+}
+
+button:hover {
+  background: linear-gradient(to right, #1e90ff, #00bfff);
+  transform: scale(1.1);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+button:active {
+  transform: scale(0.95);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
